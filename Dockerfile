@@ -37,7 +37,7 @@ WORKDIR /catkin_ws/src
 RUN git clone https://github.com/rigbetellabs/tortoisebot.git
 
 # Clone tortoisebot_waypoints package
-RUN git clone https://github.com/Hamz115/ros1_tests.git
+RUN git clone https://github.com/Hamz115/tortoisebot_waypoints_ros1.git
 
 # Install dependencies and build the workspace
 WORKDIR /catkin_ws
